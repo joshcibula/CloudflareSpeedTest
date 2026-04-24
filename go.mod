@@ -5,6 +5,7 @@ go 1.18
 // Personal fork of XIU2/CloudflareSpeedTest
 // Upstream: https://github.com/XIU2/CloudflareSpeedTest
 // Note: bumped golang.org/x/sys to latest for Apple Silicon compatibility
+// Note: bumped cheggaaa/pb and fatih/color to latest available versions
 
 require (
 	github.com/VividCortex/ewma v1.2.0
@@ -17,5 +18,5 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
-	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/sys v0.32.0 // indirect; updated for macOS ARM64 fix
 )
