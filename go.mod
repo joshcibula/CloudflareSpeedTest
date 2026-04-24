@@ -2,6 +2,9 @@ module github.com/myusername/CloudflareSpeedTest
 
 go 1.18
 
+// Personal fork of XIU2/CloudflareSpeedTest
+// Upstream: https://github.com/XIU2/CloudflareSpeedTest
+
 require (
 	github.com/VividCortex/ewma v1.2.0
 	github.com/cheggaaa/pb/v3 v3.1.7
