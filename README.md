@@ -23,6 +23,9 @@
 > [!NOTE]
 > 个人备注：日常使用时建议加上 `-tl 200 -sl 5` 参数，过滤掉延迟高于 200ms 且下载速度低于 5MB/s 的 IP，结果更实用。
 
+> [!NOTE]
+> **Fork 备注（个人使用）**：我通常使用 `-tl 150 -sl 8 -dn 5` 参数，只保留延迟低于 150ms、速度高于 8MB/s 的前 5 个 IP，够用且节省时间。
+
 ****
 ## \# 快速使用
 
@@ -52,11 +55,4 @@ scoop install dorado/cloudflare-speedtest
 
 ****
 
-以下命令仅为示例，版本号和文件名请前往 [**Releases**](https://github.com/XIU2/CloudflareSpeedTest/releases) 查看。
-
-``` yaml
-# 如果是第一次使用，则建议创建新文件夹（后续更新时，跳过该步骤）
-
-```
-
-</details>
+以下命令仅为示例，版本号和文件名请前往 [**Releases**](https://github.
