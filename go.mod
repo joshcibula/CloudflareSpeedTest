@@ -6,6 +6,7 @@ go 1.18
 // Upstream: https://github.com/XIU2/CloudflareSpeedTest
 // Note: bumped golang.org/x/sys to latest for Apple Silicon compatibility
 // Note: bumped cheggaaa/pb and fatih/color to latest available versions
+// Note: tracking VividCortex/ewma - check for updates periodically
 
 require (
 	github.com/VividCortex/ewma v1.2.0
